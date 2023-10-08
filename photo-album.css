@@ -1,0 +1,36 @@
+/* Reset some default styles */
+body, h1 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the photo album */
+.photo-album {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    padding: 20px;
+}
+
+.thumbnail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.thumbnail a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Fixed width and height for the thumbnail images */
+.thumbnail img {
+    width: 150px; /* Set a fixed width for the thumbnails */
+    height: 150px; /* Set a fixed height for the thumbnails */
+    object-fit: cover; /* Maintain aspect ratio and cover any extra space */
+}
