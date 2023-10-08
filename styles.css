@@ -50,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #555;
 }
 .background {
-    background-image: url('Images/hout.jpg'); 
+    background-image: url('images/hout.jpg'); 
     background-size: cover;
     background-position: center;
     height: calc(100vh - 60px); 
